@@ -583,7 +583,6 @@ address {
 
 /* #region Our team*/
 .team {
-    max-width: 320px;
     margin: 0 auto;
     background-color: #f4f4fd;
     padding: 96px 0;
@@ -672,9 +671,6 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-    .team {
-        max-width: 768px;
-    }
 
     .team-list {
         gap: 64px 24px;
@@ -683,7 +679,6 @@ address {
 
 @media screen and (min-width: 1158px) {
     .team {
-        max-width: 1440px;
         padding: 120px 0;
     }
 
@@ -796,7 +791,6 @@ address {
 
 /* #region footer */
 .footer {
-    max-width: 320px;
     margin: 0 auto;
     background-color: #2e2f42;
     padding: 96px 0;
@@ -947,9 +941,6 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
-        max-width: 768px;
-    }
 
     .footer-container {
         justify-content: flex-start;
@@ -985,9 +976,6 @@ address {
 }
 
 @media screen and (min-width: 1158px) {
-    .footer {
-        max-width: 1440px;
-    }
 
     .footer-container {
         gap: 0;
